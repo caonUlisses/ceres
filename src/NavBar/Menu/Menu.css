@@ -1,0 +1,36 @@
+.menu {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  min-width: 90%;
+  height: 50px;
+}
+
+.menu-list {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: inset 2px 0px 18px gray;
+}
+
+.item {
+  flex: 3;
+  width: 18%;
+}
+
+.item-icon {
+  margin: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  .item-icon {
+    padding: 10px;
+  }
+
+  .item-title {
+    display: none;
+  }
+}

@@ -5,8 +5,8 @@ ul {
   justify-content: space-between;
   align-items: center;
   height: 50px;
-  color: white;
-  background-color: black;
+  color: darkslategray;
+  background-color: lightgray;
   margin: 0;
   padding: 0;
 }
@@ -15,22 +15,29 @@ ul {
   flex: 2;
 }
 
+.menu-container {
+  max-width: 10%;
+}
+
 .menu-button {
-  margin-left: 10px;
   width: 30px;
   height: 30px;
   flex: 1;
 }
 
-.userPic {
-  background-color: green;
+.user-pic {
+  background-color: crimson;
   border-radius: 50%;
   height: 40px;
   width: 40px;
-  margin-left: 10px;
+  margin-right: 10px;
   flex: 1;
 }
- 
+
+.user-pic:hover {
+  cursor: pointer;
+}
+
 .menu-button:hover {
   cursor: pointer; 
 }
