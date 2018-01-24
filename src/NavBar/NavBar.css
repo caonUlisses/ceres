@@ -1,0 +1,36 @@
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  color: white;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.search-input {
+  flex: 2;
+}
+
+.menu-button {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  flex: 1;
+}
+
+.userPic {
+  background-color: green;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  flex: 1;
+}
+ 
+.menu-button:hover {
+  cursor: pointer; 
+}
