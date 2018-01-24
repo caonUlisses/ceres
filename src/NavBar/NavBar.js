@@ -23,8 +23,8 @@ export default class NavBar extends Component {
 
   render () {
     return (
-      <div>
-        <ul>
+      <div className='navbar'>
+        <ul className='navbar-menu'>
           <li className='menu-container'>
             <FaBars
               onClick={this.handleMenuToggle}

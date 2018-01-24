@@ -21,6 +21,13 @@
   width: 18%;
 }
 
+.item:hover {
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+  border: 3px solid gray;
+}
+
 .item-icon {
   margin: 5px;
 }

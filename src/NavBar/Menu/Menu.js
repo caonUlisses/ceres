@@ -8,7 +8,7 @@ class Menu extends Component {
   render () {
     return (
       <div className='menu'>
-        <ul className='menu-list'>
+        <ul className='navbar-menu menu-list'>
           <li className='item'>
             <FaHome className='item-icon' />
             <span className='item-title'>Início</span>
